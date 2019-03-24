@@ -1,0 +1,5 @@
+coverage
+app/model/
+app/assets/
+node_modules/*
+public/

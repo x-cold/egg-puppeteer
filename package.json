@@ -1,0 +1,32 @@
+{
+  "name": "egg-puppeteer",
+  "version": "0.0.1",
+  "description": "",
+  "eggPlugin": {
+    "name": "puppeteer",
+    "dependencies": [],
+    "optionalDependencies": [],
+    "env": [
+      "local",
+      "test",
+      "unittest",
+      "prod"
+    ]
+  },
+  "dependencies": {
+    "node-schedule": "^1.3.2",
+    "puppeteer": "^1.13.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/x-cold/egg-puppeteer"
+  },
+  "author": "x-cold <lxstart@outlook.com>",
+  "license": "MIT"
+}
