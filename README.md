@@ -11,8 +11,8 @@ $ npm i egg-cors --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.cors = {
+exports.puppeteer = {
   enable: true,
-  package: 'egg-cors',
+  package: 'egg-puppeteer',
 };
 ```
